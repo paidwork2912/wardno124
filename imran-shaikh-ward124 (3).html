@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nagarsevak Imran Shaikh | Ward 124, Vikhroli Parksite</title>
+<meta name="description" content="Official website of Nagarsevak Imran Shaikh, Ward No. 124, Vikhroli Parksite, Mumbai. Projects, news and citizen complaint portal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111;--green:#138808;--gold:#FF9933;--sa:#B94E00;--mist:#F4F4F4;--line:#D8D8D8;--bg:#fff;--txt:#161616;--card:#fff;--red:#c0392b}
+:root[data-theme=dark]{--bg:#000;--txt:#f2f2f2;--mist:#0d0d0d;--line:#333;--card:#111;--ink:#000;--sa:#FF9933}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:17px/1.6 Mukta,system-ui,sans-serif;background:var(--bg);color:var(--txt)}
+h1,h2,h3{font-family:'Yatra One',Mukta,sans-serif;line-height:1.15;margin:0 0 .5em}
+h2{font-size:clamp(1.7rem,4vw,2.4rem)}a{color:inherit}
+.wrap{max-width:1120px;margin:auto;padding:0 20px}section{padding:64px 0}section.alt{background:var(--mist)}
+header{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.brand{font:800 1.05rem 'Yatra One',sans-serif;text-decoration:none}.brand span{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:.95rem}nav a:hover{color:var(--gold)}
+#burger{display:none;background:none;border:1px solid #fff5;color:#fff;border-radius:6px;padding:4px 10px;font-size:1.2rem}
+@media(max-width:860px){#burger{display:block}nav{display:none;position:absolute;top:58px;left:0;right:0;background:var(--ink);padding:10px 20px 16px}nav.open{display:block}nav a{display:block;margin:0;padding:9px 0}}
+.btn{display:inline-block;border:0;border-radius:8px;padding:11px 20px;font:600 1rem Mukta,sans-serif;cursor:pointer;text-decoration:none;background:var(--gold);color:#1a1a1a}
+.btn.g{background:var(--green);color:#fff}.btn.o{background:transparent;border:2px solid currentColor;color:inherit}.btn.s{padding:5px 12px;font-size:.9rem}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{background:var(--ink);border-bottom:6px solid var(--gold);color:#fff;padding:56px 0}
+.hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:center}
+@media(max-width:800px){.hero .wrap{grid-template-columns:1fr}}
+.party{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.logo{width:46px;height:46px;border-radius:50%;background:var(--gold);color:var(--ink);display:grid;place-items:center;font:800 .75rem sans-serif;text-align:center;line-height:1.1}
+.hero h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:800}.hero p.sl{font-size:1.25rem;color:var(--gold);margin:.2em 0 1.2em}
+.portrait{aspect-ratio:4/5;max-width:380px;margin-left:auto;border-radius:12px;border:3px solid var(--gold);background:#222;display:grid;place-items:center;overflow:hidden;position:relative}
+.portrait img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.portrait span{font-size:.9rem;opacity:.8;text-align:center;padding:20px}
+.banner{background:var(--gold);color:#1a1a1a;text-align:center;padding:8px;font-weight:600}
+.quick{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+.stats div{padding:26px;text-align:center;border-right:1px solid var(--line)}.stats b{display:block;font:800 2.4rem 'Yatra One',sans-serif;color:var(--green)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:36px}@media(max-width:800px){.two{grid-template-columns:1fr}}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.focus .card{border-top:4px solid var(--green)}
+.car{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}.car .card{flex:0 0 min(300px,80%);scroll-snap-align:start}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.tabs button{border:1px solid var(--line);background:var(--card);color:inherit;border-radius:20px;padding:6px 14px;font:inherit;cursor:pointer}
+.tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.badge{display:inline-block;font-size:.8rem;font-weight:600;border-radius:4px;padding:1px 8px;color:#fff}
+.Completed,.Resolved{background:var(--green)}.In-Progress{background:#2f6fb5}.Sanctioned,.Received{background:#9a6b00}
+.ba{position:relative;aspect-ratio:16/10;overflow:hidden;border-radius:8px;background:#999;user-select:none}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.ba .top{clip-path:inset(0 50% 0 0)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba i{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;box-shadow:0 0 6px #0008;pointer-events:none}
+.ba em{position:absolute;bottom:8px;font:600 .8rem sans-serif;background:#000a;color:#fff;padding:2px 8px;border-radius:4px;font-style:normal}
+form label{display:block;font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;font:inherit;padding:9px 11px;border:1px solid var(--line);border-radius:7px;background:var(--card);color:var(--txt)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:600px){.row{grid-template-columns:1fr}}
+.video{aspect-ratio:16/9;border:0;width:100%;border-radius:8px;background:#000}
+.ticket{background:var(--green);color:#fff;padding:16px;border-radius:8px;margin-top:16px}.ticket b{font-size:1.4rem;letter-spacing:1px}
+table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.scroll{overflow-x:auto}.hide{display:none!important}
+footer{background:var(--ink);color:#cfd9e3;padding:28px 0;font-size:.9rem}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:8px;z-index:99;display:none;border:1px solid var(--gold)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toran{position:sticky;top:58px;z-index:49;height:9px;background:conic-gradient(from -45deg at 50% 100%,var(--gold) 90deg,transparent 0) 0 0/18px 9px}
+header{border-bottom:1px solid #333}h1,h2,h3{font-weight:400;line-height:1.3}
+.brand,.stats b,.hero h1,.logo{font-weight:400}.stats b{color:var(--sa)}.focus .card{border-top-color:var(--gold)}
+.nm{color:var(--gold);font:400 1.3rem 'Yatra One',Mukta,serif;margin:0 0 6px}
+:root[data-theme=dark] .tabs button.on{background:var(--gold);color:#000;border-color:var(--gold)}
+.tool{display:flex;gap:8px;align-items:center}#lang{width:auto;background:#000;color:#fff;border:1px solid #fff5;padding:4px 6px;font-size:.9rem}
+#theme{background:none;border:1px solid #fff5;color:#fff;border-radius:6px;padding:3px 10px;font-size:1.1rem;cursor:pointer}
+#langGate{position:fixed;inset:0;z-index:200;background:#000;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:20px;border-top:10px solid;border-image:linear-gradient(90deg,#FF9933 33%,#fff 33% 66%,#138808 66%) 1}
+#langGate h1{font-size:clamp(1.5rem,5vw,2.3rem);margin:0 0 12px}#langGate .btn{width:min(320px,90%);font-size:1.5rem;padding:14px}
+</style>
+</head>
+<body>
+<div id="langGate" class="hide"><h1>भाषा निवडा · भाषा चुनें · Choose language</h1><button class="btn" data-l="mr">मराठी</button><button class="btn" data-l="hi">हिन्दी</button><button class="btn" data-l="en">English</button></div>
+<header><div class="wrap">
+<a class="brand" href="#home">Imran Shaikh <span>· Ward 124</span></a>
+<nav id="nav"><a href="#about">About</a><a href="#work">Our Work</a><a href="#media">Media</a><a href="#complaint">Complaint</a><a href="#contact">Contact</a><a href="#admin" id="adminLink">Staff Login</a></nav>
+<div class="tool"><select id="lang" aria-label="Language"><option value="mr">मराठी</option><option value="hi">हिन्दी</option><option value="en">English</option></select><button id="theme" aria-label="Dark / light mode">◐</button><button id="burger" aria-label="Menu">☰</button></div>
+</div></header>
+<div class="toran"></div>
+
+<main>
+<div class="banner" id="bannerText"></div>
+<section class="hero" id="home"><div class="wrap">
+<div>
+<div class="party"><div class="logo">PARTY<br>LOGO</div><span id="partyName"></span></div>
+<p class="nm">॥ नमस्कार ॥</p><h1>Nagarsevak<br>Imran Shaikh</h1>
+<p class="sl" id="slogan"></p>
+<p>Ward No. 124, Vikhroli Parksite, Mumbai</p>
+<div class="quick">
+<a class="btn" href="#complaint">Submit a Complaint</a>
+<a class="btn g" href="#volunteer">Join as Volunteer</a>
+<a class="btn o" href="#contact">Contact Office</a></div>
+</div>
+<div class="portrait"><img id="portraitImg" alt="Portrait of Nagarsevak Imran Shaikh" hidden><span id="portraitHint">Portrait photo goes here.<br>Set CONFIG.portrait to the image file.</span></div>
+</div></section>
+
+<section><div class="wrap two">
+<div><h2>A message to the residents of Ward 124</h2>
+<p>Dear neighbours, a ward grows when every lane, every pocket and every family is heard. My office is open to you for roads, water, sanitation, health and the future of our youth.</p>
+<p>Tell us what is wrong, and we will tell you who is fixing it and by when. Every complaint gets a tracking number, and every update is visible to you.</p>
+<p><strong>Imran Shaikh</strong>, Nagarsevak, Ward 124</p></div>
+<div class="stats" id="stats"></div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<h2>Latest news and press releases</h2>
+<div class="car" id="newsCar"></div>
+</div></section>
+
+<section id="about"><div class="wrap">
+<h2>About Imran Shaikh</h2>
+<div class="two"><div>
+<h3>Journey, vision and values</h3>
+<p>Imran Shaikh grew up in Vikhroli Parksite and began his public service as a local volunteer, helping neighbours reach civic offices. His vision is a ward with safe roads, clean water, healthy families and opportunities for every young person.</p>
+<p><em>Replace this text with the official biography supplied by the client.</em></p></div>
+<div><h3>Party and values</h3>
+<p>Our party stands for inclusive development, transparent governance and equal access to civic services for every citizen, working with state and national leadership to bring resources to the ward.</p>
+<p><em>Add party name, ideology and leadership photos here.</em></p></div></div>
+<h3 style="margin-top:32px">Role as Nagarsevak: focus areas</h3>
+<div class="grid focus">
+<div class="card"><h3>Infrastructure</h3>Roads, drainage, footpaths and public lighting.</div>
+<div class="card"><h3>Sanitation</h3>Garbage collection, clean toilets and water supply.</div>
+<div class="card"><h3>Healthcare</h3>Health camps, dispensaries and welfare drives.</div>
+<div class="card"><h3>Youth Empowerment</h3>Parks, auditoriums, sports and skill programs.</div>
+</div></div></section>
+
+<section class="alt" id="work"><div class="wrap">
+<h2>Work and achievements</h2>
+<div class="tabs" id="catTabs"></div>
+<div class="grid" id="projects"></div>
+<h3 style="margin-top:40px">Before and after</h3>
+<p>Drag the slider to compare. Pick a project above to see its photos.</p>
+<div style="max-width:720px"><div class="ba" id="ba"></div><p id="baCap"></p></div>
+</div></section>
+
+<section id="media"><div class="wrap">
+<h2>Articles, media and press</h2>
+<div class="grid" id="newsGrid"></div>
+<h3 style="margin-top:40px">Video gallery</h3>
+<div class="grid" id="videos"></div>
+</div></section>
+
+<section class="alt" id="complaint"><div class="wrap two">
+<div>
+<h2>Citizen complaint portal</h2>
+<p>File a complaint directly with the ward office. No middleman needed.</p>
+<form id="cform">
+<div class="row"><div><label for="cn">Full name</label><input id="cn" required></div>
+<div><label for="cp">Mobile number</label><input id="cp" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" required></div></div>
+<label><input type="checkbox" id="otpOn" style="width:auto"> Verify my number with OTP (optional)</label>
+<div id="otpBox" class="hide row"><input id="otpIn" placeholder="Enter 4-digit OTP"><button type="button" class="btn s" id="otpBtn">Send OTP</button></div>
+<div class="row"><div><label for="ca">Area / pocket</label><select id="ca"></select></div>
+<div><label for="cc">Category</label><select id="cc"></select></div></div>
+<label for="cd">Describe the problem</label><textarea id="cd" rows="4" required></textarea>
+<label for="cf">Photo of the issue</label><input id="cf" type="file" accept="image/*" capture="environment">
+<p><button class="btn g" type="submit">Submit complaint</button></p>
+</form>
+<div id="tk" class="ticket hide"></div>
+</div>
+<div class="card"><h3>Track your complaint</h3>
+<div class="row"><input id="tid" placeholder="e.g. W124-261011-AB12"><button class="btn s" id="tbtn">Check status</button></div>
+<div id="tres" style="margin-top:14px"></div>
+<hr style="border:0;border-top:1px solid var(--line);margin:20px 0">
+<h3 id="volunteer">Join as volunteer</h3>
+<form id="vform"><input id="vn" placeholder="Your name" required style="margin-bottom:8px"><input id="vp" placeholder="Mobile number" required style="margin-bottom:8px"><button class="btn" type="submit">Register</button></form>
+<p style="font-size:.85rem">Your details are used only by the ward office to respond to you.</p>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Contact and ward office</h2>
+<div class="two"><div>
+<div class="card" id="offices"></div>
+<h3 style="margin-top:22px">Emergency helplines</h3>
+<table id="help"></table>
+<h3 style="margin-top:22px">Social media</h3>
+<div class="quick"><a class="btn o" id="fb" target="_blank" rel="noopener">Facebook</a><a class="btn o" id="xx" target="_blank" rel="noopener">X (Twitter)</a><a class="btn o" id="ig" target="_blank" rel="noopener">Instagram</a></div>
+<p style="font-size:.85rem">Paste official page embed codes in the marked block of the code to show live feeds.</p>
+<div id="socialFeed"><!-- paste Facebook / X / Instagram embed code here --></div>
+</div>
+<iframe class="video" style="aspect-ratio:1;min-height:340px" title="Ward office map" loading="lazy" src="https://maps.google.com/maps?q=Vikhroli+Parksite+Mumbai&output=embed"></iframe>
+</div></div></section>
+
+<section class="alt hide" id="admin"><div class="wrap">
+<div id="login"><h2>Staff login</h2><form id="lform" style="max-width:320px"><label for="pw">Password</label><input id="pw" type="password" required><p><button class="btn" type="submit">Log in</button></p></form></div>
+<div id="panel" class="hide">
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px"><h2>Admin dashboard</h2><button class="btn o s" id="logout">Log out</button></div>
+<h3>Complaints</h3>
+<div class="row" style="grid-template-columns:repeat(3,1fr);margin-bottom:12px"><select id="fa"></select><select id="fc"></select><select id="fs"></select></div>
+<p><button class="btn s g" id="exp">Export CSV</button></p>
+<div class="scroll"><table id="ctab"></table></div>
+<h3 style="margin-top:36px">Content manager</h3>
+<div class="two">
+<form class="card" id="nform"><h3>Add news</h3><input id="nt" placeholder="Headline" required><br><br><input id="ns" placeholder="Source (newspaper or channel)"><br><br><textarea id="nb" rows="3" placeholder="Summary" required></textarea><p><button class="btn s" type="submit">Publish news</button></p></form>
+<form class="card" id="pform"><h3>Add project</h3><input id="pt" placeholder="Project title" required><br><br><select id="pc"></select><br><br><select id="ps"><option>Completed</option><option>In Progress</option><option>Sanctioned</option></select><br><br><textarea id="pd" rows="2" placeholder="Description" required></textarea>
+<label>Before photo</label><input type="file" id="pb" accept="image/*"><label>After photo</label><input type="file" id="pa" accept="image/*"><p><button class="btn s" type="submit">Publish project</button></p></form>
+<form class="card" id="vidform"><h3>Add video</h3><input id="vu" placeholder="YouTube link" required><p><button class="btn s" type="submit">Add video</button></p></form>
+<div class="card"><h3>Manage items</h3><div id="manage"></div></div>
+</div>
+<p style="font-size:.85rem">Demo mode: data is saved in this browser only. A live site needs a server database, SMS gateway and secure login (see notes with this file).</p>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Office of Nagarsevak Imran Shaikh, Ward 124, Vikhroli Parksite, Mumbai. All rights reserved.</div></footer>
+<div id="toast" role="status"></div>
+
+<script>
+/* ---- EDIT THESE ---- */
+const CONFIG={
+ party:"Party Name Here",slogan:"Your voice. Your ward. Our work.",banner:"Party banner / campaign line goes here",
+ portrait:"",adminPassword:"admin124",
+ stats:[["₹","XX Cr","Funds allocated",0],["","150","Ward projects completed",150,"+"],["","10000","Citizens helped",10000,"+"]],
+ areas:["Parksite Sector 1","Parksite Sector 2","Hill No. 1","Hill No. 2","Suryanagar Colony","Other pocket"],
+ cats:["Roads","Garbage / Sanitation","Water","Streetlights","Drainage","Other"],
+ projCats:["Roads & Drainage","Streetlighting & Safety","Water & Sanitation","Parks, Auditoriums & Youth","Health & Social Welfare"],
+ offices:[["Central Ward Office","Vikhroli Parksite, Mumbai. Mon–Sat, 10:00 am – 6:00 pm. Phone: +91 00000 00000"],["Sub-office","Add address and timings here."]],
+ helplines:[["Police","100"],["Ambulance / Hospital","108"],["Fire Brigade","101"],["BMC Helpline (water, civic)","1916"],["Ward office","+91 00000 00000"]],
+ fb:"https://facebook.com/",xx:"https://x.com/",ig:"https://instagram.com/"
+};
+/* ---- helpers ---- */
+const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const get=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}};
+const put=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){toast("Storage full: use smaller photos.")}};
+function toast(m){const t=$("#toast");t.textContent=tr(m);t.style.display="block";clearTimeout(t._t);t._t=setTimeout(()=>t.style.display="none",3500)}
+const opts=(a,first)=>(first?`<option value="">${first}</option>`:"")+a.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");
+const ph=(c,l)=>"data:image/svg+xml,"+encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 100'><rect width='160' height='100' fill='${c}'/><text x='80' y='55' font-size='11' fill='#fff' text-anchor='middle' font-family='sans-serif'>${l}</text></svg>`);
+const img=f=>new Promise(r=>{if(!f)return r("");const fr=new FileReader();fr.onload=()=>{const i=new Image();i.onload=()=>{const s=Math.min(1,700/i.width),c=document.createElement("canvas");c.width=i.width*s;c.height=i.height*s;c.getContext("2d").drawImage(i,0,0,c.width,c.height);r(c.toDataURL("image/jpeg",.7))};i.src=fr.result};fr.readAsDataURL(f)});
+const cls=s=>s.replace(" ","-");
+
+const R=[
+["About","परिचय","माहिती"],["Our Work","हमारे कार्य","आमची कामे"],["Media","मीडिया","माध्यमे"],["Complaint","शिकायत","तक्रार"],["Contact","संपर्क","संपर्क"],["Staff Login","स्टाफ लॉगिन","कर्मचारी लॉगिन"],
+["Imran Shaikh","इमरान शेख","इम्रान शेख"],["· Ward 124","· वार्ड 124","· प्रभाग 124"],["PARTY","पार्टी","पक्ष"],["LOGO","चिह्न","चिन्ह"],["Nagarsevak","नगरसेवक","नगरसेवक"],
+["Ward No. 124, Vikhroli Parksite, Mumbai","वार्ड क्र. 124, विक्रोली पार्कसाइट, मुंबई","प्रभाग क्र. 124, विक्रोळी पार्कसाईट, मुंबई"],
+["Submit a Complaint","शिकायत दर्ज करें","तक्रार नोंदवा"],["Join as Volunteer","स्वयंसेवक बनें","स्वयंसेवक व्हा"],["Contact Office","कार्यालय से संपर्क करें","कार्यालयाशी संपर्क साधा"],
+["Portrait photo goes here.","यहाँ फोटो लगेगी।","येथे फोटो लागेल."],["Party Name Here","पार्टी का नाम","पक्षाचे नाव"],
+["Your voice. Your ward. Our work.","आपकी आवाज़। आपका वार्ड। हमारा काम।","तुमचा आवाज. तुमचा प्रभाग. आमचे काम."],
+["Party banner / campaign line goes here","पार्टी बैनर / अभियान पंक्ति यहाँ","पक्षाचा बॅनर / प्रचार वाक्य येथे"],
+["A message to the residents of Ward 124","वार्ड 124 के निवासियों के नाम संदेश","प्रभाग 124 च्या रहिवाशांना संदेश"],
+["Dear neighbours, a ward grows when every lane, every pocket and every family is heard. My office is open to you for roads, water, sanitation, health and the future of our youth.","प्रिय पड़ोसियो, वार्ड तभी आगे बढ़ता है जब हर गली, हर इलाके और हर परिवार की बात सुनी जाए। सड़क, पानी, स्वच्छता, स्वास्थ्य और हमारे युवाओं के भविष्य के लिए मेरा कार्यालय आपके लिए खुला है।","प्रिय शेजाऱ्यांनो, प्रत्येक गल्लीचे, प्रत्येक भागाचे आणि प्रत्येक कुटुंबाचे ऐकले जाते तेव्हाच प्रभाग पुढे जातो. रस्ते, पाणी, स्वच्छता, आरोग्य आणि आपल्या तरुणांच्या भविष्यासाठी माझे कार्यालय तुमच्यासाठी खुले आहे."],
+["Tell us what is wrong, and we will tell you who is fixing it and by when. Every complaint gets a tracking number, and every update is visible to you.","बताइए क्या समस्या है, हम बताएँगे कि उसे कौन और कब तक सुधारेगा। हर शिकायत को ट्रैकिंग नंबर मिलता है और हर अपडेट आपको दिखता है।","काय अडचण आहे ते सांगा, ती कोण आणि कधीपर्यंत सोडवणार हे आम्ही कळवू. प्रत्येक तक्रारीला ट्रॅकिंग क्रमांक मिळतो आणि प्रत्येक अपडेट तुम्हाला दिसतो."],
+[", Nagarsevak, Ward 124",", नगरसेवक, वार्ड 124",", नगरसेवक, प्रभाग 124"],
+["Funds allocated","आवंटित निधि","मंजूर निधी"],["Ward projects completed","पूर्ण वार्ड परियोजनाएँ","पूर्ण झालेले प्रभागातील प्रकल्प"],["Citizens helped","सहायता प्राप्त नागरिक","मदत मिळालेले नागरिक"],
+["Latest news and press releases","ताज़ा समाचार और प्रेस विज्ञप्तियाँ","ताज्या बातम्या व प्रसिद्धीपत्रके"],["About Imran Shaikh","इमरान शेख के बारे में","इम्रान शेख यांच्याबद्दल"],["Journey, vision and values","सफ़र, दृष्टि और मूल्य","प्रवास, दृष्टी आणि मूल्ये"],
+["Imran Shaikh grew up in Vikhroli Parksite and began his public service as a local volunteer, helping neighbours reach civic offices. His vision is a ward with safe roads, clean water, healthy families and opportunities for every young person.","इमरान शेख विक्रोली पार्कसाइट में पले-बढ़े और स्थानीय स्वयंसेवक के रूप में पड़ोसियों को नागरिक कार्यालयों तक पहुँचाने में मदद करके जनसेवा शुरू की। उनका सपना सुरक्षित सड़कों, स्वच्छ पानी, स्वस्थ परिवारों और हर युवा के लिए अवसरों वाला वार्ड है।","इम्रान शेख विक्रोळी पार्कसाईटमध्ये वाढले आणि स्थानिक स्वयंसेवक म्हणून शेजाऱ्यांना महापालिका कार्यालयांपर्यंत पोहोचण्यास मदत करत त्यांनी जनसेवेला सुरुवात केली. सुरक्षित रस्ते, स्वच्छ पाणी, निरोगी कुटुंबे आणि प्रत्येक तरुणाला संधी असलेला प्रभाग हे त्यांचे स्वप्न आहे."],
+["Party and values","पार्टी और मूल्य","पक्ष आणि मूल्ये"],
+["Our party stands for inclusive development, transparent governance and equal access to civic services for every citizen, working with state and national leadership to bring resources to the ward.","हमारी पार्टी समावेशी विकास, पारदर्शी शासन और हर नागरिक को नागरिक सेवाओं तक समान पहुँच के लिए खड़ी है, और राज्य व राष्ट्रीय नेतृत्व के साथ मिलकर वार्ड के लिए संसाधन लाती है।","आमचा पक्ष सर्वसमावेशक विकास, पारदर्शक कारभार आणि प्रत्येक नागरिकाला नागरी सेवांचा समान लाभ यासाठी कटिबद्ध आहे, आणि राज्य व राष्ट्रीय नेतृत्वासोबत प्रभागासाठी निधी आणतो."],
+["Role as Nagarsevak: focus areas","नगरसेवक की भूमिका: प्राथमिक क्षेत्र","नगरसेवकाची भूमिका: प्राधान्य क्षेत्रे"],
+["Infrastructure","बुनियादी ढाँचा","पायाभूत सुविधा"],["Roads, drainage, footpaths and public lighting.","सड़क, नाली, फुटपाथ और सार्वजनिक रोशनी।","रस्ते, गटारे, पदपथ आणि सार्वजनिक दिवे."],
+["Sanitation","स्वच्छता","स्वच्छता"],["Garbage collection, clean toilets and water supply.","कचरा संग्रह, स्वच्छ शौचालय और जल आपूर्ति।","कचरा संकलन, स्वच्छ शौचालये आणि पाणीपुरवठा."],
+["Healthcare","स्वास्थ्य सेवा","आरोग्य सेवा"],["Health camps, dispensaries and welfare drives.","स्वास्थ्य शिविर, दवाखाने और कल्याण अभियान।","आरोग्य शिबिरे, दवाखाने आणि कल्याणकारी उपक्रम."],
+["Youth Empowerment","युवा सशक्तिकरण","युवा सक्षमीकरण"],["Parks, auditoriums, sports and skill programs.","पार्क, सभागृह, खेल और कौशल कार्यक्रम।","उद्याने, सभागृहे, क्रीडा आणि कौशल्य कार्यक्रम."],
+["Work and achievements","कार्य और उपलब्धियाँ","कामे आणि उपलब्धी"],["All","सभी","सर्व"],
+["Roads & Drainage","सड़क और जल निकासी","रस्ते व गटारे"],["Streetlighting & Safety","स्ट्रीटलाइट और सुरक्षा","पथदिवे व सुरक्षा"],["Water & Sanitation","जल और स्वच्छता","पाणी व स्वच्छता"],["Parks, Auditoriums & Youth","पार्क, सभागृह और युवा","उद्याने, सभागृहे व युवा"],["Health & Social Welfare","स्वास्थ्य और समाज कल्याण","आरोग्य व समाजकल्याण"],
+["See before/after","पहले/बाद देखें","आधी/नंतर पहा"],["No projects in this category yet.","इस श्रेणी में अभी कोई परियोजना नहीं है।","या वर्गात अद्याप प्रकल्प नाहीत."],
+["Before and after","पहले और बाद में","आधी आणि नंतर"],["Drag the slider to compare. Pick a project above to see its photos.","तुलना के लिए स्लाइडर खींचें। फोटो देखने के लिए ऊपर से परियोजना चुनें।","तुलना करण्यासाठी स्लायडर ओढा. फोटो पाहण्यासाठी वरून प्रकल्प निवडा."],["Before","पहले","आधी"],["After","बाद में","नंतर"],
+["Completed","पूर्ण","पूर्ण"],["In Progress","प्रगति पर","प्रगतीपथावर"],["Sanctioned","स्वीकृत","मंजूर"],["Received","प्राप्त","प्राप्त"],["Resolved","हल हुआ","निराकरण झाले"],
+["Articles, media and press","लेख, मीडिया और प्रेस","लेख, माध्यमे आणि प्रसिद्धी"],["Video gallery","वीडियो गैलरी","व्हिडिओ गॅलरी"],["Videos of speeches, interviews and inaugurations will appear here.","भाषणों, साक्षात्कारों और उद्घाटनों के वीडियो यहाँ दिखेंगे।","भाषणे, मुलाखती आणि उद्घाटनांचे व्हिडिओ येथे दिसतील."],["No news yet.","अभी कोई समाचार नहीं।","अद्याप बातम्या नाहीत."],
+["Citizen complaint portal","नागरिक शिकायत पोर्टल","नागरिक तक्रार पोर्टल"],["File a complaint directly with the ward office. No middleman needed.","सीधे वार्ड कार्यालय में शिकायत दर्ज करें। किसी बिचौलिये की ज़रूरत नहीं।","थेट प्रभाग कार्यालयात तक्रार नोंदवा. मध्यस्थाची गरज नाही."],
+["Full name","पूरा नाम","पूर्ण नाव"],["Mobile number","मोबाइल नंबर","मोबाइल क्रमांक"],["Verify my number with OTP (optional)","OTP से मेरा नंबर सत्यापित करें (वैकल्पिक)","OTP द्वारे माझा नंबर पडताळा (ऐच्छिक)"],["Send OTP","OTP भेजें","OTP पाठवा"],
+["Area / pocket","क्षेत्र / इलाका","परिसर / भाग"],["Category","श्रेणी","वर्ग"],["Describe the problem","समस्या का विवरण दें","समस्येचे वर्णन करा"],["Photo of the issue","समस्या की फोटो","समस्येचा फोटो"],["Submit complaint","शिकायत भेजें","तक्रार पाठवा"],
+["Parksite Sector 1","पार्कसाइट सेक्टर 1","पार्कसाईट सेक्टर 1"],["Parksite Sector 2","पार्कसाइट सेक्टर 2","पार्कसाईट सेक्टर 2"],["Hill No. 1","हिल नं. 1","हिल नं. 1"],["Hill No. 2","हिल नं. 2","हिल नं. 2"],["Suryanagar Colony","सूर्यनगर कॉलोनी","सूर्यनगर वसाहत"],["Other pocket","अन्य इलाका","इतर भाग"],
+["Roads","सड़कें","रस्ते"],["Garbage / Sanitation","कचरा / स्वच्छता","कचरा / स्वच्छता"],["Water","पानी","पाणी"],["Streetlights","स्ट्रीटलाइट","पथदिवे"],["Drainage","जल निकासी","गटारे"],["Other","अन्य","इतर"],
+["Enter 4-digit OTP","4 अंकों का OTP डालें","4 अंकी OTP टाका"],["e.g. W124-261011-AB12","जैसे W124-261011-AB12","उदा. W124-261011-AB12"],["Your name","आपका नाम","तुमचे नाव"],
+["Track your complaint","अपनी शिकायत ट्रैक करें","तुमची तक्रार ट्रॅक करा"],["Check status","स्थिति देखें","स्थिती पहा"],["Join as volunteer","स्वयंसेवक बनें","स्वयंसेवक व्हा"],["Register","पंजीकरण करें","नोंदणी करा"],
+["Your details are used only by the ward office to respond to you.","आपकी जानकारी का उपयोग केवल वार्ड कार्यालय आपसे संपर्क के लिए करता है।","तुमची माहिती फक्त प्रभाग कार्यालय तुमच्याशी संपर्कासाठी वापरते."],
+["Complaint received. Your tracking ID:","शिकायत प्राप्त हुई। आपका ट्रैकिंग आईडी:","तक्रार प्राप्त झाली. तुमचा ट्रॅकिंग आयडी:"],["Save it to check progress. A live site also sends it by SMS/WhatsApp.","प्रगति देखने के लिए इसे सहेजें। लाइव साइट पर यह SMS/WhatsApp से भी भेजा जाएगा।","प्रगती पाहण्यासाठी हा जतन करा. प्रत्यक्ष वेबसाइटवर तो SMS/WhatsApp वरही पाठवला जाईल."],
+["Filed","दर्ज","नोंद"],["No complaint found with that ID. Check the ID and try again.","इस आईडी से कोई शिकायत नहीं मिली। आईडी जाँचकर फिर कोशिश करें।","या आयडीची तक्रार आढळली नाही. आयडी तपासून पुन्हा प्रयत्न करा."],
+["Enter a valid 10-digit mobile number first.","पहले 10 अंकों का सही मोबाइल नंबर डालें।","आधी 10 अंकी वैध मोबाइल क्रमांक टाका."],["OTP does not match. Send OTP again.","OTP मेल नहीं खाता। फिर से OTP भेजें।","OTP जुळत नाही. पुन्हा OTP पाठवा."],["Demo OTP","डेमो OTP","डेमो OTP"],["Registered. The office will contact you.","पंजीकरण हो गया। कार्यालय आपसे संपर्क करेगा।","नोंदणी झाली. कार्यालय तुमच्याशी संपर्क साधेल."],["Storage full: use smaller photos.","स्टोरेज भरा है: छोटी फोटो उपयोग करें।","साठवण भरली आहे: लहान फोटो वापरा."],
+["Contact and ward office","संपर्क और वार्ड कार्यालय","संपर्क आणि प्रभाग कार्यालय"],["Central Ward Office","केंद्रीय वार्ड कार्यालय","मध्यवर्ती प्रभाग कार्यालय"],
+["Vikhroli Parksite, Mumbai. Mon–Sat, 10:00 am – 6:00 pm. Phone: +91 00000 00000","विक्रोली पार्कसाइट, मुंबई। सोम–शनि, सुबह 10:00 – शाम 6:00। फोन: +91 00000 00000","विक्रोळी पार्कसाईट, मुंबई. सोम–शनि, सकाळी 10:00 – सायं. 6:00. फोन: +91 00000 00000"],
+["Sub-office","उप-कार्यालय","उप-कार्यालय"],["Add address and timings here.","पता और समय यहाँ जोड़ें।","पत्ता आणि वेळ येथे जोडा."],["Emergency helplines","आपातकालीन हेल्पलाइन","आपत्कालीन हेल्पलाइन"],
+["Police","पुलिस","पोलीस"],["Ambulance / Hospital","एम्बुलेंस / अस्पताल","रुग्णवाहिका / रुग्णालय"],["Fire Brigade","दमकल","अग्निशमन दल"],["BMC Helpline (water, civic)","BMC हेल्पलाइन (पानी, नागरिक सेवा)","BMC हेल्पलाइन (पाणी, नागरी सेवा)"],["Ward office","वार्ड कार्यालय","प्रभाग कार्यालय"],["Social media","सोशल मीडिया","सोशल मीडिया"],
+["© 2026 Office of Nagarsevak Imran Shaikh, Ward 124, Vikhroli Parksite, Mumbai. All rights reserved.","© 2026 नगरसेवक इमरान शेख कार्यालय, वार्ड 124, विक्रोली पार्कसाइट, मुंबई। सर्वाधिकार सुरक्षित।","© 2026 नगरसेवक इम्रान शेख कार्यालय, प्रभाग 124, विक्रोळी पार्कसाईट, मुंबई. सर्व हक्क राखीव."]
+];
+const D={},L={en:0,hi:1,mr:2};R.forEach(r=>D[r[0]]=r);let LANG=get("lang",null);
+function tr(s){return(LANG&&D[s]&&D[s][L[LANG]])||s}
+function setTheme(t){document.documentElement.dataset.theme=t;put("theme",t)}
+setTheme(get("theme",matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"));
+$("#theme").onclick=()=>setTheme(document.documentElement.dataset.theme=="dark"?"light":"dark");
+/* ---- data ---- */
+let projects=get("p",null)||[
+ {id:1,cat:CONFIG.projCats[0],title:"Parksite main road concreting",status:"Completed",desc:"Potholed road replaced with a durable concrete surface and new storm drain.",before:ph("#6b6b6b","BEFORE: damaged road"),after:ph("#1F7A5C","AFTER: new road")},
+ {id:2,cat:CONFIG.projCats[1],title:"LED streetlights in Hill No. 1",status:"In Progress",desc:"Dark stretches fitted with LED lights for safer evening walks.",before:ph("#444","BEFORE: dark lane"),after:ph("#c78f00","AFTER: lit lane")},
+ {id:3,cat:CONFIG.projCats[2],title:"New water line, Sector 2",status:"Sanctioned",desc:"Pipeline upgrade to fix low pressure for 400 households.",before:ph("#7a5a3a","BEFORE: old pipes"),after:ph("#2f6fb5","AFTER: new pipeline")},
+ {id:4,cat:CONFIG.projCats[3],title:"Community auditorium renovation",status:"Completed",desc:"Hall repaired for youth events, classes and meetings.",before:ph("#666","BEFORE: worn hall"),after:ph("#12263A","AFTER: renovated hall")},
+ {id:5,cat:CONFIG.projCats[4],title:"Free eye and health camp",status:"Completed",desc:"Over 1,200 residents screened with free medicines and spectacles.",before:ph("#888","BEFORE: venue"),after:ph("#1F7A5C","AFTER: camp day")}];
+let news=get("n",null)||[
+ {id:1,t:"Ward 124 road works cleared before monsoon",s:"Local daily",b:"Resurfacing of key Parksite roads has been completed ahead of the rains."},
+ {id:2,t:"Health camp serves over 1,200 residents",s:"Press release",b:"Free check-ups, eye tests and medicines were offered over two days."},
+ {id:3,t:"New LED lights make Hill No. 1 lanes safer",s:"Community news",b:"Residents report fewer incidents after streetlight installation."}];
+let videos=get("v",[]);let cur=null,cat="All";
+const save=()=>{put("p",projects);put("n",news);put("v",videos)};
+
+/* ---- init static ---- */
+$("#partyName").textContent=CONFIG.party;$("#slogan").textContent=CONFIG.slogan;$("#bannerText").textContent=CONFIG.banner;
+if(CONFIG.portrait){$("#portraitImg").src=CONFIG.portrait;$("#portraitImg").hidden=false;$("#portraitHint").hidden=true}
+$("#burger").onclick=()=>$("#nav").classList.toggle("open");
+$("#nav").onclick=()=>$("#nav").classList.remove("open");
+$("#ca").innerHTML=opts(CONFIG.areas);$("#cc").innerHTML=opts(CONFIG.cats);$("#pc").innerHTML=opts(CONFIG.projCats);
+$("#fa").innerHTML=opts(CONFIG.areas,"All areas");$("#fc").innerHTML=opts(CONFIG.cats,"All categories");$("#fs").innerHTML=opts(["Received","In Progress","Resolved"],"All statuses");
+$("#stats").innerHTML=CONFIG.stats.map(s=>`<div><b data-n="${s[3]}" data-pre="${s[0]}" data-suf="${s[4]||""}" data-txt="${s[1]}">${s[0]}${s[1]}</b>${s[2]}</div>`).join("");
+$("#offices").innerHTML=CONFIG.offices.map(o=>`<p><strong>${esc(o[0])}</strong><br>${esc(o[1])}</p>`).join("");
+$("#help").innerHTML=CONFIG.helplines.map(h=>`<tr><td>${esc(h[0])}</td><td><a href="tel:${h[1].replace(/\s/g,"")}">${esc(h[1])}</a></td></tr>`).join("");
+$("#fb").href=CONFIG.fb;$("#xx").href=CONFIG.xx;$("#ig").href=CONFIG.ig;
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);const n=+e.target.dataset.n;if(!n)return;const p=e.target.dataset.pre,sf=e.target.dataset.suf;let t0=null;const step=t=>{t0??=t;const k=Math.min(1,(t-t0)/1400);e.target.textContent=p+Math.round(n*k).toLocaleString("en-IN")+(k==1?sf:"");if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)}));
+document.querySelectorAll("#stats b").forEach(b=>io.observe(b));
+
+/* ---- render public ---- */
+const newsCard=n=>`<article class="card"><small>${esc(n.s||"News")}</small><h3 style="font-size:1.15rem">${esc(n.t)}</h3><p>${esc(n.b)}</p></article>`;
+function renderPublic(){
+ $("#newsCar").innerHTML=news.slice(0,6).map(newsCard).join("")||"<p>No news yet.</p>";
+ $("#newsGrid").innerHTML=news.map(newsCard).join("");
+ $("#catTabs").innerHTML=["All",...CONFIG.projCats].map(c=>`<button class="${c==cat?"on":""}" data-c="${esc(c)}">${esc(c)}</button>`).join("");
+ const list=projects.filter(p=>cat=="All"||p.cat==cat);
+ $("#projects").innerHTML=list.map(p=>`<article class="card"><span class="badge ${cls(p.status)}">${esc(p.status)}</span><h3 style="margin-top:8px;font-size:1.15rem">${esc(p.title)}</h3><small>${esc(p.cat)}</small><p>${esc(p.desc)}</p><button class="btn s o" data-p="${p.id}">See before/after</button></article>`).join("")||"<p>No projects in this category yet.</p>";
+ const sel=projects.find(p=>p.id==cur)||list[0]||projects[0];showBA(sel);
+ $("#videos").innerHTML=videos.map(v=>`<iframe class="video" loading="lazy" allowfullscreen title="Video" src="https://www.youtube.com/embed/${esc(v)}"></iframe>`).join("")||"<p>Videos of speeches, interviews and inaugurations will appear here.</p>";
+}
+function showBA(p){
+ if(!p){$("#ba").innerHTML="";return}cur=p.id;
+ $("#ba").innerHTML=`<img src="${p.after}" alt="After"><img class="top" src="${p.before}" alt="Before"><i></i><em style="left:8px">Before</em><em style="right:8px">After</em><input type="range" min="0" max="100" value="50" aria-label="Before and after slider">`;
+ const top=$("#ba .top"),bar=$("#ba i");$("#ba input").oninput=e=>{top.style.clipPath=`inset(0 ${100-e.target.value}% 0 0)`;bar.style.left=e.target.value+"%"};
+ $("#baCap").textContent=p.title;
+}
+$("#catTabs").onclick=e=>{if(e.target.dataset.c){cat=e.target.dataset.c;renderPublic()}};
+$("#projects").onclick=e=>{const id=e.target.dataset.p;if(id){showBA(projects.find(p=>p.id==id));$("#ba").scrollIntoView({behavior:"smooth",block:"center"})}};
+
+/* ---- complaints ---- */
+let otp=null,verified=false;
+$("#otpOn").onchange=e=>$("#otpBox").classList.toggle("hide",!e.target.checked);
+$("#otpBtn").onclick=()=>{if(!/^\d{10}$/.test($("#cp").value))return toast("Enter a valid 10-digit mobile number first.");otp=String(1000+Math.floor(Math.random()*9000));toast(tr("Demo OTP")+": "+otp)};
+$("#cform").onsubmit=async e=>{e.preventDefault();
+ if($("#otpOn").checked&&$("#otpIn").value!==otp)return toast("OTP does not match. Send OTP again.");
+ const d=new Date(),id="W124-"+String(d.getFullYear()).slice(2)+String(d.getMonth()+1).padStart(2,"0")+String(d.getDate()).padStart(2,"0")+"-"+Math.random().toString(36).slice(2,6).toUpperCase();
+ const c={id,name:$("#cn").value.trim(),phone:$("#cp").value,area:$("#ca").value,cat:$("#cc").value,desc:$("#cd").value.trim(),photo:await img($("#cf").files[0]),status:"Received",notes:[],photos:[],date:d.toISOString()};
+ const all=get("c",[]);all.unshift(c);put("c",all);e.target.reset();$("#otpBox").classList.add("hide");
+ $("#tk").classList.remove("hide");$("#tk").innerHTML=`Complaint received. Your tracking ID:<br><b>${id}</b><br>Save it to check progress. A live site also sends it by SMS/WhatsApp.`;
+};
+$("#tbtn").onclick=()=>{const id=$("#tid").value.trim().toUpperCase(),c=get("c",[]).find(x=>x.id==id);
+ $("#tres").innerHTML=c?`<span class="badge ${cls(c.status)}">${c.status}</span> <span>${esc(c.cat)}</span>, <span>${esc(c.area)}</span><br><small><span>Filed</span> ${new Date(c.date).toLocaleDateString("en-IN")}</small>${c.notes.filter(n=>n.pub).map(n=>`<p>${esc(n.t)}</p>`).join("")}${c.photos.map(p=>`<img src="${p}" alt="Progress" style="width:100%;border-radius:6px;margin-top:6px">`).join("")}`:"<p>No complaint found with that ID. Check the ID and try again.</p>"};
+$("#vform").onsubmit=e=>{e.preventDefault();const v=get("vol",[]);v.push({n:$("#vn").value,p:$("#vp").value,d:new Date().toISOString()});put("vol",v);e.target.reset();toast("Registered. The office will contact you.")};
+
+/* ---- admin ---- */
+const showAdmin=()=>{$("#admin").classList.remove("hide");$("#admin").scrollIntoView()};
+$("#adminLink").onclick=e=>{e.preventDefault();showAdmin()};
+$("#lform").onsubmit=e=>{e.preventDefault();if($("#pw").value===CONFIG.adminPassword){$("#login").classList.add("hide");$("#panel").classList.remove("hide");renderAdmin()}else toast("Wrong password.")};
+$("#logout").onclick=()=>{$("#panel").classList.add("hide");$("#login").classList.remove("hide");$("#pw").value="";$("#admin").classList.add("hide");location.hash="#home"};
+const filt=()=>get("c",[]).filter(c=>(!$("#fa").value||c.area==$("#fa").value)&&(!$("#fc").value||c.cat==$("#fc").value)&&(!$("#fs").value||c.status==$("#fs").value));
+function renderAdmin(){
+ const l=filt();
+ $("#ctab").innerHTML="<tr><th>ID / Date</th><th>Citizen</th><th>Issue</th><th>Status</th><th>Notes and photos</th></tr>"+(l.map(c=>`<tr data-id="${c.id}"><td>${c.id}<br><small>${new Date(c.date).toLocaleDateString("en-IN")}</small></td><td>${esc(c.name)}<br><a href="tel:${c.phone}">${c.phone}</a></td><td><b>${esc(c.cat)}</b>, ${esc(c.area)}<br>${esc(c.desc)}${c.photo?`<br><img src="${c.photo}" alt="Complaint photo" style="width:90px;margin-top:4px;border-radius:4px">`:""}</td><td><select class="st">${["Received","In Progress","Resolved"].map(s=>`<option value="${s}" ${s==c.status?"selected":""}>${s}</option>`).join("")}</select></td><td>${c.notes.map(n=>`<small>• ${esc(n.t)}${n.pub?" (visible)":" (internal)"}</small><br>`).join("")}<input class="nt" placeholder="Add note"><label style="font-weight:400;margin:2px 0"><input type="checkbox" class="pub" style="width:auto"> show to citizen</label><button class="btn s addn">Save note</button> <input type="file" class="pp" accept="image/*" style="margin-top:6px"></td></tr>`).join("")||"<tr><td colspan=5>No complaints match these filters.</td></tr>");
+ $("#manage").innerHTML=[...projects.map(p=>`<p>Project: ${esc(p.title)} <button class="btn s o" data-del="p${p.id}">Delete</button></p>`),...news.map(n=>`<p>News: ${esc(n.t)} <button class="btn s o" data-del="n${n.id}">Delete</button></p>`),...videos.map((v,i)=>`<p>Video: ${esc(v)} <button class="btn s o" data-del="v${i}">Delete</button></p>`)].join("");
+}
+["#fa","#fc","#fs"].forEach(s=>$(s).onchange=renderAdmin);
+$("#ctab").onchange=async e=>{const tr=e.target.closest("tr"),all=get("c",[]),c=all.find(x=>x.id==tr?.dataset.id);if(!c)return;
+ if(e.target.classList.contains("st")){c.status=e.target.value;toast("Status updated")}
+ if(e.target.classList.contains("pp")){const p=await img(e.target.files[0]);if(p){c.photos.push(p);toast("Progress photo added")}}
+ put("c",all);renderAdmin()};
+$("#ctab").onclick=e=>{if(!e.target.classList.contains("addn"))return;const tr=e.target.closest("tr"),all=get("c",[]),c=all.find(x=>x.id==tr.dataset.id),t=tr.querySelector(".nt").value.trim();if(!t)return;c.notes.push({t,pub:tr.querySelector(".pub").checked});put("c",all);renderAdmin();toast("Note saved")};
+$("#exp").onclick=()=>{const q=v=>'"'+String(v).replace(/"/g,'""')+'"',rows=[["ID","Date","Name","Phone","Area","Category","Description","Status"],...filt().map(c=>[c.id,c.date.slice(0,10),c.name,c.phone,c.area,c.cat,c.desc,c.status])];
+ const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["\ufeff"+rows.map(r=>r.map(q).join(",")).join("\n")],{type:"text/csv"}));a.download="ward124-complaints.csv";a.click()};
+$("#nform").onsubmit=e=>{e.preventDefault();news.unshift({id:Date.now(),t:$("#nt").value,s:$("#ns").value,b:$("#nb").value});save();e.target.reset();renderPublic();renderAdmin();toast("Published")};
+$("#pform").onsubmit=async e=>{e.preventDefault();const b=await img($("#pb").files[0]),a=await img($("#pa").files[0]);
+ projects.unshift({id:Date.now(),cat:$("#pc").value,title:$("#pt").value,status:$("#ps").value,desc:$("#pd").value,before:b||ph("#777","BEFORE"),after:a||ph("#1F7A5C","AFTER")});save();e.target.reset();renderPublic();renderAdmin();toast("Published")};
+$("#vidform").onsubmit=e=>{e.preventDefault();const m=$("#vu").value.match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);if(!m)return toast("Paste a valid YouTube link.");videos.push(m[1]);save();e.target.reset();renderPublic();renderAdmin();toast("Added")};
+$("#manage").onclick=e=>{const d=e.target.dataset.del;if(!d)return;const k=d[0],v=d.slice(1);if(k=="p")projects=projects.filter(p=>p.id!=v);if(k=="n")news=news.filter(n=>n.id!=v);if(k=="v")videos.splice(+v,1);save();renderPublic();renderAdmin()};
+renderPublic();
+function apply(){if(!LANG)return;const i=L[LANG],w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+for(let n;n=w.nextNode();){if(/^(SCRIPT|STYLE)$/.test(n.parentNode.nodeName))continue;const o=n._o??=n.nodeValue,k=o.trim();if(k&&D[k])n.nodeValue=o.replace(k,D[k][i])}
+document.querySelectorAll("[placeholder]").forEach(e=>{const o=e._p??=e.placeholder;if(D[o])e.placeholder=D[o][i]})}
+let busy;new MutationObserver(()=>{if(busy)return;busy=1;requestAnimationFrame(()=>{busy=0;apply()})}).observe(document.body,{childList:true,subtree:true});
+function setLang(l){LANG=l;put("lang",l);document.documentElement.lang=l;$("#lang").value=l;$("#langGate").classList.add("hide");apply()}
+$("#langGate").onclick=e=>{if(e.target.dataset.l)setLang(e.target.dataset.l)};$("#lang").onchange=e=>setLang(e.target.value);
+LANG?setLang(LANG):$("#langGate").classList.remove("hide");
+</script>
+</body>
+</html>
